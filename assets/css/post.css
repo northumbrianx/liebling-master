@@ -214,16 +214,17 @@
 }
 
 .l-post-content p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     letter-spacing: .2px;
     line-height: 1.5;
     margin-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
 @media only screen and (min-width:48rem) {
     .l-post-content p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         letter-spacing: .3px;
         line-height: 1.6;
         margin-bottom: 30px
@@ -478,7 +479,7 @@
     font-style: italic;
     letter-spacing: .2px;
     line-height: 1.5;
-    margin: 0 0 25px;
+    margin-top: 20px;
     padding: 0 40px;
     position: relative
 }
@@ -507,10 +508,16 @@
 @media only screen and (min-width:48rem) {
     .l-post-content blockquote.kg-blockquote-alt {
         font-size: 2.625rem;
-        padding-bottom: 40px;
+         /* padding-bottom: 40px; */
         padding-top: 40px
     }
 }
+.l-post-content blockquote.kg-blockquote-alt {
+    font-size: 2.625rem;
+    /* padding-bottom: 40px; */
+    padding-top: 0px;
+}
+
 
 .l-post-content blockquote.kg-blockquote-alt:before {
     display: none
